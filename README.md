@@ -1,8 +1,8 @@
 # 📱 Flutter + Supabase — CRUD com Autenticação
 
-Aplicação Flutter integrada ao **Supabase** desenvolvida como projeto acadêmico, cobrindo os conceitos das Partes 1, 2 e 3 do material didático da disciplina.
+Aplicação Flutter integrada ao **Supabase**.
 
-> ✅ **O banco de dados já está configurado e funcionando.**
+> ✅ **O banco de dados já está configurado**
 > Não é necessário criar uma conta no Supabase para rodar este projeto.
 > Basta clonar, instalar as dependências e executar.
 
@@ -69,8 +69,8 @@ O app abrirá no Chrome com a tela de login. Crie uma conta com qualquer e-mail 
 lib/
 ├── main.dart              ← Inicialização do Supabase + Auth Gate
 └── pages/
-    ├── login_page.dart    ← Tela de login e cadastro (Parte 3)
-    └── crud_page.dart     ← CRUD completo (Partes 1, 2 e 3)
+    ├── login_page.dart    ← Tela de login e cadastro
+    └── crud_page.dart     ← CRUD completo
 ```
 
 ---
@@ -106,4 +106,5 @@ lib/
 - [Documentação Supabase](https://supabase.com/docs)
 - [Documentação Flutter](https://docs.flutter.dev)
 - [supabase_flutter no pub.dev](https://pub.dev/packages/supabase_flutter)
+- [Anthropic] Claude AI
 - Material didático da disciplina — Professor Elias Oliveira
